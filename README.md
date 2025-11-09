@@ -13,3 +13,8 @@ and if your main class implements `Runnable` it will execute the `run()` method 
 
 BlueMap will also load your addon like a resource/data-pack. This means if you need any additional resources like block-models or
 textures then you can add them inside the `./src/main/resources` folder just like in a resource/datapack. 
+
+# More resources
+- BlueMap-API Usage: https://github.com/BlueMap-Minecraft/BlueMapAPI/wiki
+- Information about BlueMap-Specific resources: https://bluemap.bluecolored.de/wiki/customization/Mods.html
+- Maven based Addon-Template by TechnicJelle: https://github.com/TechnicJelle/BlueMapNativeAddonTemplate 
