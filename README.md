@@ -3,7 +3,7 @@ You can use this template repository to help you create your native bluemap-addo
 Simply clone this repository like explained [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 and replace all `example`'s you find with your own addons name and group.
 
-To compile, run `./gradlew clean build shadowJar` which will create the jars in the `./build/libs` folder.
+To compile, run `./gradlew clean build` which will create the jars in the `./build/libs` folder.
 
 You can then install your addon by placing the `.jar` in bluemaps `packs` folder next to the configuration files.
 
@@ -20,4 +20,3 @@ textures then you can add them inside the `./src/main/resources` folder just lik
 - BlueMap-API Usage: https://github.com/BlueMap-Minecraft/BlueMapAPI/wiki
 - Information about BlueMap-Specific resources: https://bluemap.bluecolored.de/wiki/customization/Mods.html
 - Maven based Addon-Template by TechnicJelle: https://github.com/TechnicJelle/BlueMapNativeAddonTemplate 
-
