@@ -5,6 +5,8 @@ and replace all `example`'s you find with your own addons name and group.
 
 To compile, run `./gradlew clean build shadowJar` which will create the jars in the `./build/libs` folder.
 
+You can then install your addon by placing the `.jar` in bluemaps `packs` folder next to the configuration files.
+
 # Overview
 Information for bluemap's addon loader can be found in `./src/main/java/resources/bluemap.addon.json`.
 There you configure your addons id (must be unique) and the entrypoint (full class name of your main class).
@@ -18,3 +20,4 @@ textures then you can add them inside the `./src/main/resources` folder just lik
 - BlueMap-API Usage: https://github.com/BlueMap-Minecraft/BlueMapAPI/wiki
 - Information about BlueMap-Specific resources: https://bluemap.bluecolored.de/wiki/customization/Mods.html
 - Maven based Addon-Template by TechnicJelle: https://github.com/TechnicJelle/BlueMapNativeAddonTemplate 
+
